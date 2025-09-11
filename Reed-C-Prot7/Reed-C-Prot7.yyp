@@ -60,6 +60,7 @@
     {"id":{"name":"spr_tools","path":"sprites/spr_tools/spr_tools.yy",},},
     {"id":{"name":"spr_tunneldirt","path":"sprites/spr_tunneldirt/spr_tunneldirt.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
