@@ -25,6 +25,7 @@
     {"name":"obj_tar1","order":4,"path":"objects/obj_tar1/obj_tar1.yy",},
     {"name":"obj_tools","order":5,"path":"objects/obj_tools/obj_tools.yy",},
     {"name":"obj_wall","order":8,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"spr_bone","order":11,"path":"sprites/spr_bone/spr_bone.yy",},
     {"name":"spr_bone2","order":17,"path":"sprites/spr_bone2/spr_bone2.yy",},
     {"name":"spr_concrete","order":10,"path":"sprites/spr_concrete/spr_concrete.yy",},
