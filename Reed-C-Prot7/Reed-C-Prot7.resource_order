@@ -21,6 +21,7 @@
     {"name":"obj_gui","order":3,"path":"objects/obj_gui/obj_gui.yy",},
     {"name":"obj_hand","order":2,"path":"objects/obj_hand/obj_hand.yy",},
     {"name":"obj_npc1","order":1,"path":"objects/obj_npc1/obj_npc1.yy",},
+    {"name":"obj_pause","order":9,"path":"objects/obj_pause/obj_pause.yy",},
     {"name":"obj_rad","order":6,"path":"objects/obj_rad/obj_rad.yy",},
     {"name":"obj_tar1","order":4,"path":"objects/obj_tar1/obj_tar1.yy",},
     {"name":"obj_tools","order":5,"path":"objects/obj_tools/obj_tools.yy",},

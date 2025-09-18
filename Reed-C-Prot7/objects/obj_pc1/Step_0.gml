@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // on step
-
+if(global.pause) exit;
 key_int1_tap = mouse_check_button_pressed(mb_right);
 key_int1_hold = mouse_check_button(mb_right);
 
@@ -34,4 +34,5 @@ if (place_meeting(x+hspeed,y+vspeed,obj_wall))
 	obj_tar1.x = x;
 	obj_tar1.y = y;
 	}
+	
 // end step
