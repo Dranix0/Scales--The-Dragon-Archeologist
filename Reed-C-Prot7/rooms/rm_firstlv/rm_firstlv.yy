@@ -106,7 +106,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":1300,
+    "Height":1500,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":1500,
