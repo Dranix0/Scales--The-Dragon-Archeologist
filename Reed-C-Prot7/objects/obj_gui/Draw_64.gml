@@ -4,12 +4,13 @@
 
 // pl1 coin counter
 draw_sprite_stretched(spr_background,0,6,6,220,60);
-draw_text(10,10, "Tools: " +string(obj_pc1.tools));
+draw_text(10,10, "Tools       : " +string(obj_pc1.tools));
 
 
 //quest tracker
 if (obj_pc1.quest1==1) && (obj_npc1.broken_ant!=0)
 	{
+		draw_sprite(spr_tools, 0 ,55,15);
 		draw_sprite(spr_bone, 0 ,95,25);
 	draw_text(10,22,"Unidentified        :"  +string(obj_npc1.broken_ant) );
 	}
