@@ -19,9 +19,9 @@
   "ResourceOrderSettings":[
     {"name":"obj_button_help","order":12,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"obj_button_parent","order":10,"path":"objects/obj_button_parent/obj_button_parent.yy",},
-    {"name":"obj_button_play_1","order":14,"path":"objects/obj_button_play_1/obj_button_play_1.yy",},
     {"name":"obj_button_play","order":11,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_button_quit","order":13,"path":"objects/obj_button_quit/obj_button_quit.yy",},
+    {"name":"obj_button_resume","order":16,"path":"objects/obj_button_resume/obj_button_resume.yy",},
     {"name":"obj_controls","order":15,"path":"objects/obj_controls/obj_controls.yy",},
     {"name":"obj_gen","order":7,"path":"objects/obj_gen/obj_gen.yy",},
     {"name":"obj_gui","order":3,"path":"objects/obj_gui/obj_gui.yy",},
