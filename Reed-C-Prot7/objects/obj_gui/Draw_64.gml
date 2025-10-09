@@ -11,7 +11,7 @@ draw_text(10,10, "Tools       : " +string(obj_pc1.tools));
 if (obj_pc1.quest1==1) && (obj_npc1.broken_ant!=0)
 	{
 		draw_sprite(spr_tools, 0 ,55,15);
-		draw_sprite(spr_bone, 0 ,95,25);
+		draw_sprite(spr_solarartifact, 0, 105, 33);
 	draw_text(10,22,"Unidentified        :"  +string(obj_npc1.broken_ant) );
 	}
 else if (obj_pc1.quest1==1) && (obj_npc1.broken_ant==0)
@@ -21,7 +21,8 @@ else if (obj_pc1.quest1==1) && (obj_npc1.broken_ant==0)
 	
 if (obj_pc1.quest1==1) && (obj_npc1.broken_gen!=0)
 	{
-		draw_sprite(spr_solarartifact, 0, 105, 45);
+	
+		draw_sprite(spr_bone, 0 ,95,37);
 	draw_text(10,36,"Unidentified        :"  +string(obj_npc1.broken_gen) );
 	}
 else if (obj_pc1.quest1==1) && (obj_npc1.broken_gen==0)
