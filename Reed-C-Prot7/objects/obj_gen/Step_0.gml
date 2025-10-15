@@ -22,9 +22,9 @@ if (fixed==0)
 		{
 		textline =2;
 		//Failure//
-		if(obj_pc1.fixing > 0) 
+		if(obj_pc1.tools > 0) 
 		{
-			obj_pc1.fixing -= 1;
+			obj_pc1.tools -= 1;
 		}
 		}		
 	if (obj_pc1.key_int1_hold==0) && (total>=dccheck) && (dieroll<>0)
