@@ -14,9 +14,9 @@ pd = 0;
 dd = 0;
 
 
-tools = 0;
-toolsmax = 10;
-fixing = 0;
+tools = 3;
+toolsmax = 50;
+fixing = 3;
 quest1 = 0;
 
 key_int1_tap = 0;
