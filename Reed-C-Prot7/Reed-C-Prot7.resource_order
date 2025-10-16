@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_button_help","order":12,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"obj_button_parent","order":10,"path":"objects/obj_button_parent/obj_button_parent.yy",},
+    {"name":"obj_button_play_again","order":18,"path":"objects/obj_button_play_again/obj_button_play_again.yy",},
     {"name":"obj_button_play","order":11,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_button_quit","order":13,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"obj_button_resume","order":16,"path":"objects/obj_button_resume/obj_button_resume.yy",},
@@ -33,8 +34,11 @@
     {"name":"obj_title","order":17,"path":"objects/obj_title/obj_title.yy",},
     {"name":"obj_tools","order":5,"path":"objects/obj_tools/obj_tools.yy",},
     {"name":"obj_wall","order":8,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"obj_win_text","order":19,"path":"objects/obj_win_text/obj_win_text.yy",},
     {"name":"rm_firstlv","order":1,"path":"rooms/rm_firstlv/rm_firstlv.yy",},
+    {"name":"rm_game_over","order":3,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"rm_mainmenu","order":2,"path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
+    {"name":"rm_pausemenu","order":4,"path":"rooms/rm_pausemenu/rm_pausemenu.yy",},
     {"name":"snd_collectionsucess","order":2,"path":"sounds/snd_collectionsucess/snd_collectionsucess.yy",},
     {"name":"snd_error","order":5,"path":"sounds/snd_error/snd_error.yy",},
     {"name":"snd_movement","order":1,"path":"sounds/snd_movement/snd_movement.yy",},
@@ -59,5 +63,7 @@
     {"name":"spr_tools","order":2,"path":"sprites/spr_tools/spr_tools.yy",},
     {"name":"spr_tunneldirt","order":14,"path":"sprites/spr_tunneldirt/spr_tunneldirt.yy",},
     {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_win_text","order":23,"path":"sprites/spr_win_text/spr_win_text.yy",},
+    {"name":"spr_win","order":22,"path":"sprites/spr_win/spr_win.yy",},
   ],
 }

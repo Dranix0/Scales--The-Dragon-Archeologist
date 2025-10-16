@@ -21,6 +21,11 @@ if (fixed==0)
 	if (obj_pc1.key_int1_hold==0)  && (distance_to_object(obj_pc1)<=range) && (dieroll<>0) && (total<<dccheck)
 		{
 		textline =2;
+		//Failure//
+		if(obj_pc1.tools > 0) 
+		{
+			obj_pc1.tools -= 3;
+		}
 		}		
 	if (obj_pc1.key_int1_hold==0) && (total>=dccheck) && (dieroll<>0)
 		{

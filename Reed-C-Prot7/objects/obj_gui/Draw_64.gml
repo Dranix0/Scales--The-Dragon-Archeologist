@@ -3,16 +3,17 @@
 // on draw GUI
 
 // pl1 coin counter
-draw_sprite_stretched(spr_background,0,6,6,220,60);
+draw_sprite_stretched(spr_background,0,6,6,510,80);
+draw_text(10,50, "Collect all the bones and artifacts and bring them back to Bart")
 draw_text(10,10, "Tools       : " +string(obj_pc1.tools));
 
 
 //quest tracker
 if (obj_pc1.quest1==1) && (obj_npc1.broken_ant!=0)
 	{
-		draw_sprite(spr_tools, 0 ,55,15);
-		draw_sprite(spr_solarartifact, 0, 105, 33);
-	draw_text(10,22,"Unidentified        :"  +string(obj_npc1.broken_ant) );
+		draw_sprite(spr_tools, 0 ,65,18);
+		draw_sprite(spr_solarartifact, 0, 122, 33);
+	draw_text(10,22,"Unidentified      :"  +string(obj_npc1.broken_ant) );
 	}
 else if (obj_pc1.quest1==1) && (obj_npc1.broken_ant==0)
 	{
@@ -22,8 +23,8 @@ else if (obj_pc1.quest1==1) && (obj_npc1.broken_ant==0)
 if (obj_pc1.quest1==1) && (obj_npc1.broken_gen!=0)
 	{
 	
-		draw_sprite(spr_bone, 0 ,95,37);
-	draw_text(10,36,"Unidentified        :"  +string(obj_npc1.broken_gen) );
+		draw_sprite(spr_bone, 0 ,115,39);
+	draw_text(10,36,"Unidentified      :"  +string(obj_npc1.broken_gen) );
 	}
 else if (obj_pc1.quest1==1) && (obj_npc1.broken_gen==0)
 	{
@@ -54,6 +55,8 @@ else if (obj_npc1.txtbox==3)
 	draw_sprite_stretched(spr_background,0,400,300,380,60);
 	draw_text(408,308, "Everything was identified in the site.");
 	draw_text(408,324, "Thanks for your help.");
+	room_goto(rm_game_over);
+	audio_play_sound(snd_questcomplete,10,false)
 	}
 
 
