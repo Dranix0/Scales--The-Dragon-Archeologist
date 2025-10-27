@@ -6,10 +6,11 @@ key_int1_tap = mouse_check_button_pressed(mb_right);
 key_int1_hold = mouse_check_button(mb_right);
 
 
-
+if(instance_exists(obj_tar1)){
 pd = point_direction(x, y, obj_tar1.x, obj_tar1.y);
 dd = angle_difference(image_angle, pd);
 image_angle -= min(abs(dd), 10) * sign(dd);
+
 	
 	if(!obj_pause.paused)
 	{
@@ -28,6 +29,7 @@ else if (distance_to_point(obj_tar1.x,obj_tar1.y)>=slowdist)
 else 
 	{
 	speed = 0;
+	}
 	}
 	}
 	if (mouse_check_button(mb_left))
@@ -50,5 +52,5 @@ if (place_meeting(x+hspeed,y+vspeed,obj_wall))
 	obj_tar1.x = x;
 	obj_tar1.y = y;
 	}
-	
+
 // end step

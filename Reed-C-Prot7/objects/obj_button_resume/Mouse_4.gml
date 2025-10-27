@@ -4,4 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-pause =true;
+if(instance_exists(obj_pasued)){
+	with (obj_pause) paused = false;
+}
+
+
+
