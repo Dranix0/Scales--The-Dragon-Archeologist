@@ -42,6 +42,7 @@
     {"name":"rm_mainmenu","order":2,"path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"rm_pausemenu","order":4,"path":"rooms/rm_pausemenu/rm_pausemenu.yy",},
     {"name":"rm_tutorial","order":5,"path":"rooms/rm_tutorial/rm_tutorial.yy",},
+    {"name":"RoomUI","order":16,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"snd_collectionsucess","order":2,"path":"sounds/snd_collectionsucess/snd_collectionsucess.yy",},
     {"name":"snd_error","order":5,"path":"sounds/snd_error/snd_error.yy",},
     {"name":"snd_movement","order":1,"path":"sounds/snd_movement/snd_movement.yy",},
