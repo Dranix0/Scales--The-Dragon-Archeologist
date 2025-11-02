@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Reed-C-Prot7",
   "resources":[
@@ -81,6 +81,7 @@
     {"id":{"name":"spr_guibg_blue","path":"sprites/spr_guibg_blue/spr_guibg_blue.yy",},},
     {"id":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},},
+    {"id":{"name":"spr_pausebox","path":"sprites/spr_pausebox/spr_pausebox.yy",},},
     {"id":{"name":"spr_pc","path":"sprites/spr_pc/spr_pc.yy",},},
     {"id":{"name":"spr_rad","path":"sprites/spr_rad/spr_rad.yy",},},
     {"id":{"name":"spr_solarartifact","path":"sprites/spr_solarartifact/spr_solarartifact.yy",},},

@@ -59,6 +59,7 @@
     {"name":"spr_guibg_blue","order":6,"path":"sprites/spr_guibg_blue/spr_guibg_blue.yy",},
     {"name":"spr_hand","order":1,"path":"sprites/spr_hand/spr_hand.yy",},
     {"name":"spr_npc","order":3,"path":"sprites/spr_npc/spr_npc.yy",},
+    {"name":"spr_pausebox","order":25,"path":"sprites/spr_pausebox/spr_pausebox.yy",},
     {"name":"spr_rad","order":7,"path":"sprites/spr_rad/spr_rad.yy",},
     {"name":"spr_solarartifact","order":9,"path":"sprites/spr_solarartifact/spr_solarartifact.yy",},
     {"name":"spr_stonewall","order":16,"path":"sprites/spr_stonewall/spr_stonewall.yy",},
