@@ -1,2 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+room_goto(rm_firstlv);
+objpc1.x = targetX;
+objpc1.y = targetY;
