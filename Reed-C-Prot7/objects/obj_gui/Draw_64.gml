@@ -24,12 +24,36 @@ if (obj_pc1.quest1==1) && (obj_npc1.broken_gen!=0)
 	{
 	
 		draw_sprite(spr_bone, 0 ,115,39);
-	draw_text(10,36,"Unidentified      :"  +string(obj_npc1.broken_gen) );
+	draw_text(10,36,"Unidentified      :"  +string(obj_npc2.broken_gen) );
 	}
 else if (obj_pc1.quest1==1) && (obj_npc1.broken_gen==0)
 	{
 	draw_text(10,36, "All bones found.");
 	}
+	
+	
+	if (obj_pc1.quest1==1) && (obj_npc2.broken_ant!=0)
+	{
+		draw_sprite(spr_tools, 0 ,65,18);
+		draw_sprite(spr_solarartifact, 0, 122, 33);
+	draw_text(10,22,"Unidentified      :"  +string(obj_npc2.broken_ant) );
+	}
+else if (obj_pc1.quest1==1) && (obj_npc2.broken_ant==0)
+	{
+	draw_text(10,22, "All artifacts found.");
+	}
+	
+if (obj_pc1.quest1==1) && (obj_npc2.broken_gen!=0)
+	{
+	
+		draw_sprite(spr_bone, 0 ,115,39);
+	draw_text(10,36,"Unidentified      :"  +string(obj_npc2.broken_gen) );
+	}
+else if (obj_pc1.quest1==1) && (obj_npc2.broken_gen==0)
+	{
+	draw_text(10,36, "All bones found.");
+	}
+
 
 
 	
@@ -58,6 +82,29 @@ else if (obj_npc1.txtbox==3)
 	room_goto(rm_game_over);
 	audio_play_sound(snd_questcomplete,10,false)
 	}
-
+	
+	//npc2 dialogue boxes
+if (obj_npc2.txtbox==1)
+	{
+	draw_sprite_stretched(spr_background,0,400,300,380,60);
+	draw_text(408,308, +string(obj_npc1.broken_gen)  +" of the bones are Unidentified.");
+	draw_text(408,324, +string(obj_npc1.broken_ant)  +" of the artifacts are Unidentified.");
+	}
+	
+else if (obj_npc2.txtbox==2)
+	{
+	draw_sprite_stretched(spr_background,0,400,300,380,60);
+	
+	draw_text(408,308, "There are " +string(obj_npc1.broken_gen)  +" Unidentified bones.");
+	draw_text(408,324, "There are " +string(obj_npc1.broken_ant)  +" Unidentified artifacts.");
+	}
+	
+else if (obj_npc2.txtbox==3)
+	{
+	draw_sprite_stretched(spr_background,0,400,300,380,60);
+	draw_text(408,308, "Everything was identified in the site.");
+	draw_text(408,324, "Thanks for your help.");
+	
+	}
 
 //END DRAW GUI EVENT
