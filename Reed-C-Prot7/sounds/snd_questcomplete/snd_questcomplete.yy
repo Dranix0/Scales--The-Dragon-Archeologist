@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.959156,
+  "duration":1.9591837,
   "exportDir":"",
   "name":"snd_questcomplete",
   "parent":{

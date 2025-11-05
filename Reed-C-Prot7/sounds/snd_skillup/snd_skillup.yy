@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.472,
+  "duration":2.4720182,
   "exportDir":"",
   "name":"snd_skillup",
   "parent":{

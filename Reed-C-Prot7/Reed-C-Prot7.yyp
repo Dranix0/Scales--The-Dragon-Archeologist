@@ -61,8 +61,8 @@
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"id":{"name":"rm_pausemenu","path":"rooms/rm_pausemenu/rm_pausemenu.yy",},},
+    {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"snd_collectionsucess","path":"sounds/snd_collectionsucess/snd_collectionsucess.yy",},},
     {"id":{"name":"snd_dice","path":"sounds/snd_dice/snd_dice.yy",},},
@@ -98,7 +98,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_firstlv","path":"rooms/rm_firstlv/rm_firstlv.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
