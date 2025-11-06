@@ -17,8 +17,6 @@
     {"name":"inst_7D04BB20","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_2127A1F7","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_290DCEC1","path":"rooms/rm_tutorial/rm_tutorial.yy",},
-    {"name":"inst_3922BE9","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_44273D9B","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_5EF8151C","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_2EE63D85","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_550AE76","path":"rooms/rm_tutorial/rm_tutorial.yy",},

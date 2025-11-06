@@ -3,8 +3,8 @@
 // on draw GUI
 
 // pl1 coin counter
-draw_sprite_stretched(spr_background,0,6,6,510,80);
-draw_text(10,50, "Collect all the bones and artifacts and bring them back to Bart")
+draw_sprite_stretched(spr_background,0,6,6,690,80);
+draw_text(10,50, "Collect all the bones and artifacts and bring them back to the archeologist")
 draw_text(10,10, "Tools       : " +string(obj_pc1.tools));
 
 
@@ -105,6 +105,7 @@ else if (obj_npc2.txtbox==3)
 	draw_sprite_stretched(spr_background,0,400,300,380,60);
 	draw_text(408,308, "Everything was identified in the site.");
 	draw_text(408,324, "Thanks for your help.");
+	audio_play_sound(snd_questcomplete,10,false)
 	
 	}
 	}

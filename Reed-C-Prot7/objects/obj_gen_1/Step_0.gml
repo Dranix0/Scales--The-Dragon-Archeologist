@@ -29,6 +29,7 @@ if (fixed==0)
 		}		
 	if (obj_pc1.key_int1_hold==0) && (total>=dccheck) && (dieroll<>0)
 		{
+				//Sucess//
 		fixed =1
 		obj_npc2.broken_gen_1 -= 1;
 		image_index=1;
