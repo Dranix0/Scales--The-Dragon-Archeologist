@@ -5,7 +5,7 @@
 
 if (do_once==0)
 {
-	obj_npc1.broken_gen+=1;
+	obj_npc2.broken_gen_1+=1;
 	do_once+=1;
 }
 
@@ -30,7 +30,7 @@ if (fixed==0)
 	if (obj_pc1.key_int1_hold==0) && (total>=dccheck) && (dieroll<>0)
 		{
 		fixed =1
-		obj_npc1.broken_gen -= 1;
+		obj_npc2.broken_gen_1 -= 1;
 		image_index=1;
 		textline=3;
 		}

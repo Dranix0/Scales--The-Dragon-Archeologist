@@ -18,6 +18,7 @@ tools = 3;
 toolsmax = 50;
 fixing = 3;
 quest1 = 0;
+quest2 = 0;
 
 key_int1_tap = 0;
 key_int1_hold = 0;
