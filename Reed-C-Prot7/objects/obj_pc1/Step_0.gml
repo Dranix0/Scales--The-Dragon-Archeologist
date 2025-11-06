@@ -14,6 +14,8 @@ image_angle -= min(abs(dd), 10) * sign(dd);
 	
 	if(!obj_pause.paused)
 	{
+	var moving = false;
+	{
 if (distance_to_point(obj_tar1.x,obj_tar1.y)>rundist)
 	{
 	move_towards_point(obj_tar1.x,obj_tar1.y,run);	
@@ -29,6 +31,12 @@ else if (distance_to_point(obj_tar1.x,obj_tar1.y)>=slowdist)
 else 
 	{
 	speed = 0;
+	}
+	if (moving && !audio_is_playing(snd_movement)){
+		audio_play_sound(snd_movement,30,false);
+	}
+	else if (!moving) {
+		audio_stop_sound(snd_movement);
 	}
 	}
 	}
@@ -52,5 +60,5 @@ if (place_meeting(x+hspeed,y+vspeed,obj_wall))
 	obj_tar1.x = x;
 	obj_tar1.y = y;
 	}
-
+}
 // end step
