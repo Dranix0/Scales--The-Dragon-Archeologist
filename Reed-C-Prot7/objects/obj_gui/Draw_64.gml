@@ -24,14 +24,14 @@ if (obj_pc1.quest1==1) && (obj_npc1.broken_gen!=0)
 	{
 	
 		draw_sprite(spr_bone, 0 ,115,39);
-	draw_text(10,36,"Unidentified      :"  +string(obj_npc2.broken_gen) );
+	draw_text(10,36,"Unidentified      :"  +string(obj_npc1.broken_gen) );
 	}
 else if (obj_pc1.quest1==1) && (obj_npc1.broken_gen==0)
 	{
 	draw_text(10,36, "All bones found.");
 	}
 	
-	
+	//quest tracker2
 	if (obj_pc1.quest2==1) && (obj_npc2.broken_ant_1!=0)
 	{
 		draw_sprite(spr_tools, 0 ,65,18);
