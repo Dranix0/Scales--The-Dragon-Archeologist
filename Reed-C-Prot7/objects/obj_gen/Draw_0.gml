@@ -9,7 +9,7 @@ if (textline=1)
 	draw_sprite_stretched(spr_guibg_blue,0,x-16,y-36,170,24);
 	draw_text(x-16,y-36, "Rolling D20= " +string(dieroll));
 	}
-
+//Fail
 if (textline==2)
 	{
 	draw_sprite_stretched(spr_guibg_blue,0,x-20,y-96,170,86);
@@ -21,7 +21,7 @@ if (textline==2)
 	draw_set_color(c_white);
 	draw_text(x-16,y-36, "DC to fix= " +string(dccheck)+".");
 	}
-
+//Success
 else if (textline==3)
 	{
 	draw_sprite_stretched(spr_guibg_blue,0,x-20,y-96,170,86);
