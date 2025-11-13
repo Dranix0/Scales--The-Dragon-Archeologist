@@ -34,6 +34,7 @@ if (fixed==0)
 		obj_npc1.broken_gen -= 1;
 		image_index=1;
 		textline=3;
+				
 		}
 }	
 
@@ -43,5 +44,9 @@ if (distance_to_object(obj_pc1)>range)
 	textline =0;
 	dieroll=0;
 }
+
+
+
+
 
 // end step
