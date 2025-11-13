@@ -61,4 +61,9 @@ if (place_meeting(x+hspeed,y+vspeed,obj_wall))
 	obj_tar1.y = y;
 	}
 }
+with(obj_pc1)
+{
+	var trails = other.trail
+	part_emitter_region(trails, 0, x, x+sprite_width, y+sprite_height, y, -1, -1)
+}
 // end step

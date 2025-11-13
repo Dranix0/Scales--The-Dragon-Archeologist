@@ -63,6 +63,8 @@
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_win_text","path":"objects/obj_win_text/obj_win_text.yy",},},
+    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
+    {"id":{"name":"ps_collectionsuccess","path":"particles/ps_collectionsuccess/ps_collectionsuccess.yy",},},
     {"id":{"name":"rm_firstlv","path":"rooms/rm_firstlv/rm_firstlv.yy",},},
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},

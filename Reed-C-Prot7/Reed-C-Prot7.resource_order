@@ -43,6 +43,7 @@
     {"name":"obj_transition","order":20,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"obj_wall","order":8,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_win_text","order":19,"path":"objects/obj_win_text/obj_win_text.yy",},
+    {"name":"ps_collectionsuccess","order":1,"path":"particles/ps_collectionsuccess/ps_collectionsuccess.yy",},
     {"name":"rm_firstlv","order":1,"path":"rooms/rm_firstlv/rm_firstlv.yy",},
     {"name":"rm_game_over","order":3,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"rm_mainmenu","order":2,"path":"rooms/rm_mainmenu/rm_mainmenu.yy",},

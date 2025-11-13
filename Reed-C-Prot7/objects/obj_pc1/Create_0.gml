@@ -22,8 +22,11 @@ quest2 = 0;
 
 key_int1_tap = 0;
 key_int1_hold = 0;
+
+trail = part_system_create(ParticleSystem1)
 if(variable_global_exists("targetX")){
 	x = global.targetX;
 	y = global.targetY;
 }
+
 // end create
