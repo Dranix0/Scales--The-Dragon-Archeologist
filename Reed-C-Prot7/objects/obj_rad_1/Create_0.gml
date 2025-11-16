@@ -14,7 +14,7 @@ dieroll = 0;
 total = 0;
 
 
-dccheck = irandom_range(13,25);
+dccheck = irandom_range(13,21);
 
 textline =0;
 
