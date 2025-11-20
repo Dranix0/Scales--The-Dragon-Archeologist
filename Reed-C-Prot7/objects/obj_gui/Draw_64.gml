@@ -3,7 +3,7 @@
 // on draw GUI
 
 // pl1 coin counter
-draw_sprite_stretched(spr_background,0,6,6,690,80);
+draw_sprite_stretched(spr_background,0,6,6,290,80);
 draw_text(10,50, "Collect everything")
 draw_text(10,10, "Tools       : " +string(obj_pc1.tools));
 

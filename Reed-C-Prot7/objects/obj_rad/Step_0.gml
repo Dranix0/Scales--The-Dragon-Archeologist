@@ -43,5 +43,11 @@ if (distance_to_object(obj_pc1)>range)
 	textline =0;
 	dieroll=0;
 }
+if (distance_to_object(obj_pc1) <= range) {
+	visible = true;
+} else {
+	visible = false;
+}
+
 
 // end step
