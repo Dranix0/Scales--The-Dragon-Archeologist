@@ -34,7 +34,7 @@ if (fixed==0)
 		obj_npc1.broken_gen -= 1;
 		image_index=1;
 		textline=3;
-				
+				audio_play_sound(snd_collectionsucess,10,false)
 		}
 }	
 
